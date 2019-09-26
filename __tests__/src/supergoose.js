@@ -6,7 +6,7 @@
  */
 
 const mongoose = require('mongoose');
-const { default: MongoMemoryServer } = require('mongodb-memory-server');
+//const { default: MongoMemoryServer } = require('mongodb-memory-server');
 module.exports = require('supertest');
 
 let mongoServer;
