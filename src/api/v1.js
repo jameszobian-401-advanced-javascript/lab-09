@@ -6,7 +6,7 @@ const express = require('express');
 
 const modelFinder = require(`${cwd}/src/middleware/model-finder.js`);
 
-const router = express.Router();
+const router = new express.Router();
 
 router.param('model', modelFinder.load);
 
